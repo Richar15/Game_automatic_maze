@@ -145,9 +145,9 @@ def draw_maze(laberinto):
             pygame.draw.rect(screen, color, (x * CELL_SIZE, y * CELL_SIZE, CELL_SIZE, CELL_SIZE))
 
     # Dibujar el camino más corto
-    for x, y in laberinto.shortest_path:
+    """ for x, y in laberinto.shortest_path:
         pygame.draw.rect(screen, YELLOW, (x * CELL_SIZE, y * CELL_SIZE, CELL_SIZE, CELL_SIZE))
-
+ """
     # Dibujar jugador
     pygame.draw.circle(screen, RED, (laberinto.player[0] * CELL_SIZE + CELL_SIZE // 2,
                                      laberinto.player[1] * CELL_SIZE + CELL_SIZE // 2), CELL_SIZE // 3)

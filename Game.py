@@ -28,7 +28,7 @@ CELL_SIZE = 40  # Definir el tamaño de cada celda del laberinto
 GRID_WIDTH = WIDTH // CELL_SIZE  # Calcular el número de celdas en el ancho de la pantalla
 GRID_HEIGHT = HEIGHT // CELL_SIZE  # Calcular el número de celdas en el alto de la pantalla
 screen = pygame.display.set_mode((WIDTH, HEIGHT))  # Crear la ventana del juego con las dimensiones especificadas
-pygame.display.set_caption("Laberinto Autómata - Múltiples Caminos")  # Establecer el título de la ventana del juego
+pygame.display.set_caption("Laberinto Autómata")  # Establecer el título de la ventana del juego
 
 # Colores
 WHITE = (255, 255, 255)  # Definir el color blanco

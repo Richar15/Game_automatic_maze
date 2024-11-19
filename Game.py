@@ -160,9 +160,6 @@ def draw_maze(laberinto):
             color = BLACK if laberinto.grid[y][x] == 1 else WHITE  # Dibujar paredes en negro y celdas transitables en blanco
             pygame.draw.rect(screen, color, (x * CELL_SIZE, y * CELL_SIZE, CELL_SIZE, CELL_SIZE))
 
-    # Dibujar el camino más corto
-    """ for x, y in laberinto.shortest_path:
-        pygame.draw.rect(screen, YELLOW, (x * CELL_SIZE, y * CELL_SIZE, CELL_SIZE, CELL_SIZE))  """
 
     # Dibujar jugador
     pygame.draw.circle(screen, RED, (laberinto.player[0] * CELL_SIZE + CELL_SIZE // 2,

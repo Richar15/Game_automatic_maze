@@ -18,9 +18,9 @@ pygame.mixer.init()
 # sonido/sonidoRamdom.mp3
 # sonido/broly.mp3
 # sonido/vini v.mp3
-
+# sonido\dandadan-audio.mp3
 # Cargar el sonido
-pygame.mixer.music.load('sonido/sonidoRamdom.mp3')  # Cargar un archivo de sonido para reproducir en el juego
+pygame.mixer.music.load('sonido\dandadan-audio.mp3')  # Cargar un archivo de sonido para reproducir en el juego
 
 # Configuración de la pantalla
 WIDTH, HEIGHT = 800, 600  # Definir el ancho y alto de la pantalla
